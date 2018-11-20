@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_register">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="280dp">
+
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="43dp"
+            android:src="@drawable/user"/>
+
+        <EditText
+            android:id="@+id/register_account"
+            android:layout_width="204dp"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:hint="请输入用户名"
+            android:textColorHint="#C6CAD2"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            android:maxLength="16"
+            android:singleLine="true"
+            android:background="@drawable/xiahuaxian1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="43dp"
+            android:src="@drawable/password"/>
+
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="204dp"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:textColorHint="#C6CAD2"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            android:maxLength="16"
+            android:singleLine="true"
+            android:background="@drawable/xiahuaxian1"
+            android:hint="请输入密码"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="43dp"
+            android:src="@drawable/email"/>
+
+        <EditText
+            android:id="@+id/register_youxiang"
+            android:layout_width="204dp"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:hint="请输邮箱地址"
+            android:textColorHint="#C6CAD2"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            android:maxLength="18"
+            android:singleLine="true"
+            android:background="@drawable/xiahuaxian1"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="138dp"
+        android:layout_height="34dp"
+        android:text="注册"
+        android:textSize="20dp"
+        android:textColor="#214ED1"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="112dp"
+        android:background="@drawable/buttonstyle_1"
+        />
+
+
+</LinearLayout>
